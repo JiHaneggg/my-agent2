@@ -1,14 +1,23 @@
-
-# Python 가상환경
+# Python Virtual Environment
 .venv/
+venv/
 
-# Python 캐시
+# Python Cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-# 환경변수 및 API Key
+# API Keys
 .env
 .env.*
+!.env.example
 
-# VS Code 개인 설정
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
